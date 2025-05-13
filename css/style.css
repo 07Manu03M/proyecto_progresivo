@@ -1,0 +1,80 @@
+@import url(./variables.css);
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    border: black;
+}
+
+header ul {
+    display: flex;
+    gap: 5svw;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+}
+
+header ul li {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+
+.headerDiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 3svh 10svw;
+    background-color: blue;
+}
+
+
+.light {
+    display: flex;
+    gap: 20px;
+}
+
+.light svg {
+    height: 5svh;
+}
+
+
+.sect1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35svh;
+    background-image: url('../storage/img/fondo.jpg');
+    background-size: cover;       
+    background-position: center;   
+    background-repeat: no-repeat;
+}
+
+.sect1 h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    color: white;
+    font-weight: 100;
+}
+
+
+
+.infoMucho {
+    display: flex;
+    justify-content: space-between;
+    gap: 7svw;
+    padding: 5svh 8svw;
+}
+
+.infoMucho ul{
+    padding: 0;
+}
+
+aside {
+    width: 100%;
+}
+
+.fijo {
+    position: fixed;
+}
