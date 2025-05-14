@@ -62,9 +62,9 @@ header ul li {
 
 .infoMucho {
     display: flex;
-    justify-content: space-between;
-    gap: 7svw;
-    padding: 5svh 8svw;
+    gap: 3svw;
+    padding: 5svh 6svw;
+    align-items: flex-start; /* Asegura que aside y section inicien al tope */
 }
 
 .infoMucho ul{
@@ -72,9 +72,58 @@ header ul li {
 }
 
 aside {
-    width: 100%;
+    width: 65svw; /* Define un ancho relativo */
+    position: sticky;
+    top: 5svh; /* Desde dónde se empieza a "pegar" */
+    align-self: flex-start; /* Para evitar que el aside crezca innecesariamente */
 }
 
+
 .fijo {
-    position: fixed;
+    border: solid black;
+    padding: 4svh 4svh 4svh 7svh;
+    background-color: white; /* Opcional, mejora legibilidad al hacer scroll */
+}
+
+.fijo ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2svh;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.listApi li{
+    margin-left: 2svw;
+    margin-top: 0.6rem;
+}
+
+.articulos {
+    display: flex;
+    flex-direction: column;
+    gap: 8svh;
+}
+
+.art1 {
+    border: solid black;
+    padding: 4svh;
+    display: flex;
+    flex-direction: column;
+    gap: 1svw;
+}
+
+.art1 h2 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2.3rem;
+}
+
+.art1 p {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    line-height: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.art1 h3 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.7rem;
 }
