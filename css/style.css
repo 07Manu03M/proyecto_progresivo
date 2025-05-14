@@ -1,0 +1,109 @@
+@import url(variables.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ /************** primera caja **************/
+body {
+
+  font-family: 'Arial', sans-serif;
+  background: url('https://i.pinimg.com/736x/6b/cc/7f/6bcc7f90504c74f286dca773ecfc7daf.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.principal {
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.contenido1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.texto-section {
+  max-width: 500px;
+  background: yellow;
+    margin-top: 80px;
+}
+
+.icono {
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+.text-section h1 {
+  font-size: 4rem;
+  color: #2e1f17;
+  margin-bottom: 20px;
+  background: cadetblue;
+}
+
+.text-section p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #4b3e36;
+}
+/************** primera caja **************/
+
+/************** segunda caja **************/
+button {
+  background-color: #2e1f17;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+ background: pink;
+}
+
+.caja-imagen img {
+  max-width: 360px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  
+}
+
+.tarjetas {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  background: chartreuse;
+  margin-top: 80px;
+}
+
+.caja {
+  background-color: white;
+  border-radius: 50px;
+  width: 250px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  background: red;
+}
+
+.caja img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.caja h2 {
+  font-size: 2rem;
+  color: #2e1f17;
+}
+
+.caja p {
+  font-size: 0.9rem;
+  color: #555;
+}
