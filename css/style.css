@@ -1,8 +1,10 @@
-@import url(./variables.css);
+@import url(variables.css);
 
 * {
     margin: 0;
     box-sizing: border-box;
+    padding: 0;
+    background: var(--color-body-);
 }
 
 header {
@@ -26,7 +28,7 @@ header ul li {
     display: flex;
     justify-content: space-between;
     padding: 3svh 10svw;
-    background-color: blue;
+    background-color: var(-color-body);
 }
 
 
@@ -54,7 +56,6 @@ header ul li {
 .sect1 h1 {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 5rem;
-    color: white;
     font-weight: 100;
 }
 

@@ -1,0 +1,7 @@
+:root{
+    --color-body-: #fff;
+}
+
+.dark-mode{
+    --color-body-: #000;
+}
