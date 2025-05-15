@@ -8,8 +8,7 @@
 body {
 
   font-family: 'Arial', sans-serif;
-  background: url('https://i.pinimg.com/736x/6b/cc/7f/6bcc7f90504c74f286dca773ecfc7daf.jpg') no-repeat center center fixed;
-  background-size: cover;
+  background-color: #4666c2;
 }
 
 .principal {
@@ -28,7 +27,7 @@ body {
 
 .texto-section {
   max-width: 500px;
-  background: yellow;
+  /**background: yellow;**/
     margin-top: 80px;
 }
 
@@ -42,6 +41,7 @@ body {
   color: #2e1f17;
   margin-bottom: 20px;
   background: cadetblue;
+  font-family: '';
 }
 
 .text-section p {
