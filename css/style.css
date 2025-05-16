@@ -10,9 +10,9 @@ body {
   font-family: 'Arial', sans-serif;
   background: url('') no-repeat center center fixed;
   background-size: cover;
-  background:#1b347a;
+  background:#7a84a0;
+  
 }
-
 .principal {
   padding: 40px 60px;
   display: flex;
@@ -43,7 +43,7 @@ body {
   color: #000;
   margin-bottom: 20px;
   /**background: cadetblue;**/
-  font-family:'ComicRelief';
+  font-family:'TitanOne-Regular';
 }
 
 .text-section p {
@@ -56,14 +56,14 @@ body {
 
 /************** segunda caja **************/
 button {
-  background-color: #2e1f17;
-  color: white;
+  background-color: #b3b3d5;
+  color:#000;
   padding: 12px 30px;
   border: none;
   border-radius: 25px;
-  font-size: 1rem;
+  font-size: 2rem;
   cursor: pointer;
- background: pink;
+  font-family: 'TitanOne-Regular';
 }
 
 .caja-imagen img {
@@ -101,7 +101,7 @@ button {
 }
 
 .caja{
-  background-color: #86acc1;
+  background-color:#371f69  ;
   border-radius: 50px;
   width: 250px;
   text-align: center;
@@ -120,7 +120,8 @@ button {
 
 .caja h2 {
   font-size: 2rem;
-  color: #2e1f17;
+  color: #000;
+  font-family: 'TitanOne-Regular';
 }
 
 .caja p {
@@ -149,3 +150,5 @@ button {
 .imagen-principal img {
   border-radius: 15px; /* Puedes ajustar el valor según el redondeo que desees */
 }
+
+

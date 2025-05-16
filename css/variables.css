@@ -9,3 +9,8 @@
     font-family:"ComicRelief";
     src: url(../storage/font/ComicRelief-Bold.ttf);
 }
+
+@font-face {
+    font-family:"TitanOne-Regular";
+    src: url(../storage/font/TitanOne-Regular.ttf);
+}
