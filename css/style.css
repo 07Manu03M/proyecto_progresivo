@@ -30,6 +30,7 @@ header ul li {
     justify-content: space-between;
     padding: 3svh 10svw;
     background-color: var(-color-body);
+    color: var(--letra-);
 }
 
 
@@ -81,7 +82,7 @@ header ul li {
 }
 
 aside {
-    width: 200svw; /* Define un ancho relativo */
+    width: 300svw; /* Define un ancho relativo */
     position: sticky;
     top: 5svh; /* Desde dónde se empieza a "pegar" */
     align-self: flex-start; /* Para evitar que el aside crezca innecesariamente */
@@ -92,17 +93,21 @@ aside {
     border: 2px solid var(--color-borde-);
     padding: 4svh 4svh 4svh 7svh;
     width: 100%;
-
+    
 }
 
 .fijo ul {
     display: flex;
     flex-direction: column;
-    gap: 2svh;
+    gap:2svh;
     font-family:Arial, Helvetica, sans-serif;
     color: var(--letra-);
 }
-
+.listApi{
+    /* border: 2px red solid; */
+    display: flex;
+    height: 65px;
+}
 .listApi li{
     
     margin-left: 2svw;
