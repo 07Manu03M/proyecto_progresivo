@@ -8,24 +8,26 @@
 body {
 
   font-family: 'Arial', sans-serif;
-  background-color: #4666c2;
+  background: url('') no-repeat center center fixed;
+  background-size: cover;
+  background:#1b347a;
 }
 
-.principal {
+.landing {
   padding: 40px 60px;
   display: flex;
   flex-direction: column;
   gap: 60px;
 }
 
-.contenido1 {
+.top-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.texto-section {
+.text-section {
   max-width: 500px;
   /**background: yellow;**/
     margin-top: 80px;
@@ -40,14 +42,15 @@ body {
   font-size: 4rem;
   color: #2e1f17;
   margin-bottom: 20px;
-  background: cadetblue;
-  font-family: '';
+  /**background: cadetblue;**/
+  font-family: 'PoetsenOne-Regular';
 }
 
 .text-section p {
   font-size: 1rem;
   margin-bottom: 30px;
-  color: #4b3e36;
+   color: #fff;
+   font-family: 'PoetsenOne-Regular';
 }
 /************** primera caja **************/
 
@@ -71,23 +74,40 @@ button {
   
 }
 
-.tarjetas {
+.caja{
+  overflow: hidden;
+  /* Si tus imágenes son circulares, asegúrate de que este div tenga border-radius */
+}
+
+.caja img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+  transform-origin: center;
+}
+
+.caja:hover img {
+  transform: scale(1.2);
+}
+
+.estadisticas {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 10px;
-  background: chartreuse;
-  margin-top: 80px;
+  /**background: chartreuse;**/
+    margin-top: 80px;
 }
 
-.caja {
-  background-color: white;
+.caja{
+  background-color: #86acc1;
   border-radius: 50px;
   width: 250px;
   text-align: center;
   padding: 20px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-  background: red;
+  /**background: red;**/
 }
 
 .caja img {
@@ -105,5 +125,27 @@ button {
 
 .caja p {
   font-size: 0.9rem;
-  color: #555;
+  color: #fff;
+   font-family: 'PoetsenOne-Regular';
+}
+
+.zoom-effect {
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+.caja{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.caja:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+.main-image img {
+  border-radius: 15px; /* Puedes ajustar el valor según el redondeo que desees */
 }
