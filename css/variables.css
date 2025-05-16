@@ -14,3 +14,17 @@
     font-family:"TitanOne-Regular";
     src: url(../storage/font/TitanOne-Regular.ttf);
 }
+@font-face {
+    font-family:"IBMPlexMono-Italic";
+    src: url(../storage/font/IBMPlexMono-Italic.ttf);
+}
+
+
+@font-face {
+    font-family:"CrimsonPro-VariableFont_wght";
+    src: url(../storage/font/CrimsonPro-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:"Comfortaa-VariableFont_wght";
+    src: url(../storage/font/Comfortaa-VariableFont_wght.ttf);
+}

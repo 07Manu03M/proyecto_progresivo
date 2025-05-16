@@ -8,9 +8,8 @@
 body {
 
   font-family: 'Arial', sans-serif;
-  background: url('') no-repeat center center fixed;
+  background: url('https://i.pinimg.com/736x/15/5b/2a/155b2aa7a1c012f6504a70fe2e318019.jpg') no-repeat center center fixed;
   background-size: cover;
-  background:#7a84a0;
   
 }
 .principal {
@@ -40,30 +39,30 @@ body {
 
 .text-section h1 {
   font-size: 4rem;
-  color: #000;
+  color: #eee;
   margin-bottom: 20px;
   /**background: cadetblue;**/
-  font-family:'TitanOne-Regular';
+  font-family:'CrimsonPro-VariableFont_wght';
 }
 
 .text-section p {
   font-size: 1rem;
   margin-bottom: 30px;
-   color: #000;
-   font-family: 'ComicRelief';
+   color: #eee;
+   font-family: 'Comfortaa-VariableFont_wght';
 }
 /************** primera caja **************/
 
 /************** segunda caja **************/
 button {
-  background-color: #b3b3d5;
+  background-color: #fff;
   color:#000;
   padding: 12px 30px;
   border: none;
   border-radius: 25px;
   font-size: 2rem;
   cursor: pointer;
-  font-family: 'TitanOne-Regular';
+  font-family: 'CrimsonPro-VariableFont_wght';
 }
 
 .caja-imagen img {
@@ -88,7 +87,7 @@ button {
 }
 
 .caja:hover img {
-  transform: scale(1.2);
+  transform: scale(1.08);
 }
 
 .estadisticas {
@@ -101,8 +100,11 @@ button {
 }
 
 .caja{
-  background-color:#371f69  ;
+  background-color:#000  ;
   border-radius: 50px;
+  border: solid #381b94  3px;
+  border-top-left-radius: 120px;
+  border-top-right-radius: 120px;
   width: 250px;
   text-align: center;
   padding: 20px;
@@ -111,8 +113,9 @@ button {
 }
 
 .caja img {
-  width: 70px;
-  height: 70px;
+  width: 100%;
+  height: auto;
+  border: solid #381b94  3px;
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 15px;
@@ -120,14 +123,14 @@ button {
 
 .caja h2 {
   font-size: 2rem;
-  color: #000;
-  font-family: 'TitanOne-Regular';
+  color: #eee;
+  font-family: 'CrimsonPro-VariableFont_wght';
 }
 
 .caja p {
   font-size: 0.9rem;
-  color:#000000;
-   font-family: 'ComicRelief';
+  color:#eee;
+   font-family: 'Comfortaa-VariableFont_wght';
 }
 
 .zoom-effect {
