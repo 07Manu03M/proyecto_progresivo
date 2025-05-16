@@ -2,8 +2,10 @@
     --color-1:#FFFFFF;
     --color-2:#354c8f;
     --color-3:#1b347a;
+    --color-4:#000000;
+
 }
 @font-face {
-    font-family:"PoetsenOne-Regular";
-    src: url(font/PoetsenOne-Regular.ttf);
+    font-family:"ComicRelief";
+    src: url(../storage/font/ComicRelief-Bold.ttf);
 }

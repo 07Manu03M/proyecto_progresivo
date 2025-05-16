@@ -13,7 +13,7 @@ body {
   background:#1b347a;
 }
 
-.landing {
+.principal {
   padding: 40px 60px;
   display: flex;
   flex-direction: column;
@@ -40,17 +40,17 @@ body {
 
 .text-section h1 {
   font-size: 4rem;
-  color: #2e1f17;
+  color: #000;
   margin-bottom: 20px;
   /**background: cadetblue;**/
-  font-family: 'PoetsenOne-Regular';
+  font-family:'ComicRelief';
 }
 
 .text-section p {
   font-size: 1rem;
   margin-bottom: 30px;
-   color: #fff;
-   font-family: 'PoetsenOne-Regular';
+   color: #000;
+   font-family: 'ComicRelief';
 }
 /************** primera caja **************/
 
@@ -125,8 +125,8 @@ button {
 
 .caja p {
   font-size: 0.9rem;
-  color: #fff;
-   font-family: 'PoetsenOne-Regular';
+  color:#000000;
+   font-family: 'ComicRelief';
 }
 
 .zoom-effect {
@@ -146,6 +146,6 @@ button {
   transform: scale(1.05);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
-.main-image img {
+.imagen-principal img {
   border-radius: 15px; /* Puedes ajustar el valor según el redondeo que desees */
 }
