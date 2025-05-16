@@ -5,6 +5,7 @@
     box-sizing: border-box;
     padding: 0;
     background: var(--color-body-);
+    transition: background 0.5s ease;
 }
 
 header {
@@ -32,7 +33,7 @@ header ul li {
 }
 
 
-.light {
+.mode_dark {
     display: flex;
     gap: 20px;
 }
@@ -57,23 +58,30 @@ header ul li {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 5rem;
     font-weight: 100;
+    background: var(--color-fondo-);
+    height: 35svh;
+    width: 100%;
+    color: var(--color-letra-);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
 
 
 .infoMucho {
     display: flex;
-    gap: 3svw;
+    gap: 5svw;
     padding: 5svh 6svw;
     align-items: flex-start; /* Asegura que aside y section inicien al tope */
 }
 
 .infoMucho ul{
     padding: 0;
+    width: 100%;
 }
 
 aside {
-    width: 65svw; /* Define un ancho relativo */
+    width: 200svw; /* Define un ancho relativo */
     position: sticky;
     top: 5svh; /* Desde dónde se empieza a "pegar" */
     align-self: flex-start; /* Para evitar que el aside crezca innecesariamente */
@@ -81,9 +89,10 @@ aside {
 
 
 .fijo {
-    border: solid black;
+    border: 2px solid var(--color-borde-);
     padding: 4svh 4svh 4svh 7svh;
-    background-color: white; /* Opcional, mejora legibilidad al hacer scroll */
+    width: 100%;
+
 }
 
 .fijo ul {
@@ -91,9 +100,11 @@ aside {
     flex-direction: column;
     gap: 2svh;
     font-family:Arial, Helvetica, sans-serif;
+    color: var(--letra-);
 }
 
 .listApi li{
+    
     margin-left: 2svw;
     margin-top: 0.6rem;
 }
@@ -105,16 +116,18 @@ aside {
 }
 
 .art1 {
-    border: solid black;
+    border: 2px solid var(--color-borde-);
     padding: 4svh;
     display: flex;
     flex-direction: column;
     gap: 1svw;
+    width: 90%;
 }
 
 .art1 h2 {
     font-family:'Courier New', Courier, monospace;
     font-size: 2.3rem;
+    color: var(--letra-);
 }
 
 .art1 p {
@@ -122,9 +135,11 @@ aside {
     text-align: left;
     line-height: 1.6rem;
     margin-bottom: 2rem;
+    color: var(--letra-);
 }
 
 .art1 h3 {
     font-family:'Courier New', Courier, monospace;
     font-size: 1.7rem;
+    color: var(--letra-);
 }

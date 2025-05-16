@@ -31,12 +31,12 @@
         </section>
 
         <section class="infoMucho">
-            <aside>
+            <aside class="aside">
                 <div class="fijo">
                     <ul>
-                        <li>¿Que es una API?
+                        <li>Origen del internet
                             <ul class="listApi">
-                                <li>¿Cómo funciona una API?</li>
+                                <li>¿cómo funciona el Internet? </li>
                                 <li>Tipos comunes de API</li>
                             </ul>
                         </li>
@@ -49,25 +49,20 @@
 
             <section class="articulos">
                 <article class="art1">
-                    <h2>¿Que es una API?</h2>
+                    <h2>Origen del internet</h2>
                     <p>
-                        Una API (siglas en inglés de Application Programming Interface, o Interfaz de Programación de
-                        Aplicaciones en español) es un conjunto de definiciones y protocolos que permiten que diferentes
-                        aplicaciones o sistemas se comuniquen entre sí. En términos simples, una API actúa como un
-                        puente que permite que dos programas distintos intercambien información de forma estructurada y
-                        segura.
+                        Antes de Internet, la comunicación digital se hacía mediante el telégrafo, que transmitía señales por cables usando código Morse. En 1958, Estados Unidos creó la agencia ARPA para investigar tecnologías avanzadas, y en 1962 J.C.R. Licklider propuso una red global de computadores. Ese mismo año, comenzaron los estudios sobre conmutación de paquetes, liderados por Leonard Kleinrock, lo que permitió una forma más eficiente de transmitir datos.
+
+                        En 1969 se conectaron los primeros cuatro nodos de ARPANET, considerada la precursora de Internet. Poco después se desarrolló el primer protocolo de comunicación entre ordenadores (NCP), y en 1972 se presentó públicamente ARPANET junto con el correo electrónico, que se volvió la aplicación más usada.
+
+                        Entre 1974 y 1982 surgieron nuevas redes, pero el entorno era caótico. En 1982, ARPANET adoptó el protocolo TCP/IP, lo que permitió la integración de todas las redes y dio origen oficial a Internet. Desde entonces, ha crecido como una red global de comunicación e intercambio de información.
                     </p>
 
-                    <h3>¿Cómo funciona una API?</h3>
+                    <h3>¿cómo funciona el Internet? </h3>
                     <p>
-                        Imagina una API como el menú de un restaurante. El menú ofrece una lista de platillos que puedes
-                        pedir, junto con una descripción de cada uno. Cuando haces tu pedido, el camarero lo lleva a la
-                        cocina y luego te trae lo que pediste. Tú no necesitas saber cómo se cocina el platillo, solo
-                        confías en que el sistema (el restaurante) te lo entregará.
+                        Internet funciona a partir de dos elementos fundamentales: los paquetes y los protocolos. Los paquetes son pequeños fragmentos en los que se divide la información antes de ser enviada por la red. Cada uno de ellos incluye un encabezado que contiene instrucciones sobre cómo deben ser tratados y dónde deben ubicarse al llegar a su destino. Este proceso es muy similar a lo que ocurrió con la Estatua de la Libertad, que fue enviada desde Francia a Estados Unidos en piezas separadas, acompañadas de instrucciones para su ensamblaje. En el caso de Internet, estos paquetes viajan rápidamente por distintos caminos, gracias a una técnica llamada conmutación de paquetes. Esto permite que muchos usuarios puedan usar la red al mismo tiempo, ya que ningún dispositivo monopoliza el tráfico.
 
-                        Del mismo modo, una API te permite "pedir" información o servicios de otro programa sin
-                        necesidad de conocer cómo está construido internamente. Solo necesitas saber qué datos puedes
-                        enviar, cómo enviarlos, y qué recibirás a cambio.
+                        Por otro lado, para que todos los dispositivos que se conectan a Internet puedan entenderse entre sí, es necesario que utilicen un conjunto común de normas, llamadas protocolos. Los protocolos son reglas estandarizadas que permiten que computadoras con sistemas y componentes diferentes puedan comunicarse sin problemas. Algunos de los más importantes son IP, que se encarga de mover los paquetes entre redes; TCP, que garantiza que los paquetes lleguen completos y en el orden correcto; y HTTP, que permite acceder y mostrar páginas web. Existen también otros protocolos especializados para tareas como el cifrado, las pruebas de red o la transmisión de video. Gracias a estos protocolos, Internet puede funcionar de forma global, sin importar el dispositivo o la tecnología que se utilice para conectarse.
                     </p>
 
                     <h3>Tipos comunes de API</h3>
@@ -86,7 +81,7 @@
                 </article>
 
                 <article class="art1">
-                    <h2>¿Que es una API?</h2>
+                    <h2>Origen del internet</h2>
                     <p>
                         Una API (Interfaz de Programación de Aplicaciones) permite que dos sistemas diferentes se
                         comuniquen entre sí. Funciona como un puente que conecta aplicaciones, facilitando el
@@ -119,9 +114,16 @@
     </main>
 
     <footer>
+        <h2>Deja un comentario</h2>
+            <textarea id="commentInput" rows="4" cols="50" placeholder="Escribe tu comentario aquí..."></textarea>
+            <br>
+            <button onclick="postComment()">Enviar comentario</button>
 
+            <h3>Comentarios:</h3>
+            <ul id="commentList"></ul>
     </footer>
     <script src="javascript/theme.js"></script>
+    <script src="javascript/comments.js"></script>
 </body>
 
 </html>
