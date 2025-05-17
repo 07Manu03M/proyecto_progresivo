@@ -1,0 +1,228 @@
+@import url(commentvar.css);
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background: var(--color-body-);
+    transition: background 0.5s ease;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+    border: black;
+}
+
+.backretro img{
+    width: 50px;
+}
+
+header ul {
+    display: flex;
+    gap: 5svw;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+}
+
+header ul li {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+
+.headerDiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 3svh 10svw;
+    background-color: var(-color-body);
+    color: var(--letra-);
+}
+
+
+.mode_dark {
+    display: flex;
+    gap: 20px;
+}
+
+.light svg {
+    height: 5svh;
+}
+
+
+.sect1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35svh;
+    background-image: var(--mi-imagen);
+    background-size: cover;       
+    background-position: center;   
+    background-repeat: no-repeat;
+}
+
+.sect1 h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    font-weight: 100;
+    background: var(--color-fondo-);
+    height: 35svh;
+    width: 100%;
+    color: var(--letrita-);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoMucho {
+    display: flex;
+    gap: 5svw;
+    padding: 5svh 6svw;
+    align-items: flex-start; /* Asegura que aside y section inicien al tope */
+}
+
+.infoMucho ul{
+    padding: 0;
+    width: 100%;
+}
+
+aside {
+    width: 300svw; /* Define un ancho relativo */
+    position: sticky;
+    top: 5svh; /* Desde dónde se empieza a "pegar" */
+    align-self: flex-start; /* Para evitar que el aside crezca innecesariamente */
+}
+
+
+.fijo {
+    border: 2px solid var(--color-borde-);
+    padding: 4svh 4svh 4svh 7svh;
+    width: 100%;
+    
+}
+
+.fijo ul {
+    display: flex;
+    flex-direction: column;
+    gap:4svh;
+    font-family:Arial, Helvetica, sans-serif;
+    color: var(--letra-);
+}
+.listApi{
+    /* border: 2px red solid; */
+    display: flex;
+}
+.listApi li{
+    
+    margin-left: 2svw;
+    margin-top: 0.6rem;
+}
+a{
+    text-decoration: none;
+    color: var(--letra-);
+}
+
+.articulos {
+    display: flex;
+    flex-direction: column;
+    gap: 8svh;
+}
+
+.art1 {
+    border: 2px solid var(--color-borde-);
+    padding: 4svh;
+    display: flex;
+    flex-direction: column;
+    gap: 1svw;
+    width: 90%;
+}
+
+.art1 h2 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2.3rem;
+    color: var(--letra-);
+}
+
+.art1 p {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    line-height: 1.6rem;
+    margin-bottom: 2rem;
+    color: var(--letra-);
+}
+
+.art1 h3 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.7rem;
+    color: var(--letra-);
+}
+
+
+/* footer section */
+
+.footer_section {
+    background: var(--color-body-);
+    width: 90%;
+    margin: auto;
+    height: auto;
+    margin-top: 100px;
+}
+.div_comment{
+    /* border: 2px seagreen solid; */
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.div_comment h2{
+    /* border: 2px blue solid; */
+    font-size: 35px;
+    font-family:'Courier New', Courier, monospace;
+    color: var(--letra-);
+}
+.div_comment .textarea {
+    /* border: 2px rebeccapurple solid; */
+    padding: 5px;
+    color: var(--letra-);
+}
+.botones {
+    /* border: 2px yellow solid; */
+    width: 30%;
+    color: var(--letra-);
+    border: 2px solid var(--color-borde-);
+}
+.botones:hover{
+    background: var(--color-fondo-2);
+    color: var(--color-letra-);
+}
+.footer_section h3{
+    margin-top: 50px;
+    border-bottom: 1px solid #ccc;
+    /* border: 2px slateblue solid; */
+    font-family:'Courier New', Courier, monospace;
+    color: var(--letra-);
+    
+}
+.ulsito {
+    border: 2px var(--color-body-) solid;
+    list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.comment-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding: 8px 0;
+  color: var(--letra-);
+}
+
+.avatar-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--letra-);
+}
