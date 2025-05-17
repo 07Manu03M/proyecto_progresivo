@@ -7,7 +7,9 @@
     background: var(--color-body-);
     transition: background 0.5s ease;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 header {
     border: black;
 }
@@ -99,19 +101,21 @@ aside {
 .fijo ul {
     display: flex;
     flex-direction: column;
-    gap:2svh;
+    gap:4svh;
     font-family:Arial, Helvetica, sans-serif;
     color: var(--letra-);
 }
 .listApi{
     /* border: 2px red solid; */
     display: flex;
-    height: 65px;
 }
 .listApi li{
     
     margin-left: 2svw;
     margin-top: 0.6rem;
+}
+a{
+    text-decoration: none;
 }
 
 .articulos {
@@ -147,4 +151,36 @@ aside {
     font-family:'Courier New', Courier, monospace;
     font-size: 1.7rem;
     color: var(--letra-);
+}
+
+
+/* footer section */
+
+.footer_section {
+    border: 2px red solid;
+    width: 90%;
+    margin: auto;
+    height: 500px;
+}
+.div_comment{
+    border: 2px seagreen solid;
+    height: 130px;
+}
+.div_comment h2{
+    border: 2px blue solid;
+}
+.div_comment .textarea {
+    border: 2px rebeccapurple solid;
+}
+.botones {
+    border: 2px yellow solid;
+}
+.footer_section h3{
+    border: 2px slateblue solid;
+}
+.footer_section {
+    border: 2px skyblue solid;
+}
+.ulsito {
+    border: 2px sienna solid;
 }
