@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
-    background-color: var(--color-body-);
+    background: var(--color-body-);
     transition: background 0.5s ease;
 }
 html {
@@ -64,12 +64,11 @@ header ul li {
     background: var(--color-fondo-);
     height: 35svh;
     width: 100%;
-    color: var(--color-letra-);
+    color: var(--letrita-);
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 
 .infoMucho {
     display: flex;
@@ -158,10 +157,11 @@ a{
 /* footer section */
 
 .footer_section {
-    /* border: 2px red solid; */
+    background: var(--color-body-);
     width: 90%;
     margin: auto;
-    height: 500px;
+    height: auto;
+    margin-top: 100px;
 }
 .div_comment{
     /* border: 2px seagreen solid; */
@@ -179,16 +179,16 @@ a{
 .div_comment .textarea {
     /* border: 2px rebeccapurple solid; */
     padding: 5px;
+    color: var(--letra-);
 }
 .botones {
     /* border: 2px yellow solid; */
     width: 30%;
-    height: 10%;
     color: var(--letra-);
     border: 2px solid var(--color-borde-);
 }
 .botones:hover{
-    background: var(--color-fondo-);
+    background: var(--color-fondo-2);
     color: var(--color-letra-);
 }
 .footer_section h3{
@@ -200,7 +200,7 @@ a{
     
 }
 .ulsito {
-    /* border: 2px sienna solid; */
+    border: 2px var(--color-body-) solid;
     list-style: none;
   padding: 0;
   margin: 0;

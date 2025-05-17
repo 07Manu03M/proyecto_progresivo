@@ -4,7 +4,9 @@
     --color-fondo-: #0000007d;
     --color-letra-: #fff;
     --color-borde-: #000;
+    --color-fondo-2: #262626;
     --letra-: #000000;
+    --letrita-: #fff;
     --mi-imagen: url('../storage/img/fondo.jpg');
 }
 
@@ -12,7 +14,7 @@
     --color-body-: #1d1d1d;
     --transparente-: none;
     --color-borde-: #929292;
-    --color-fondo-: #fff;
+    --color-fondo-2: #fff;
     --letra-: #ffffff;
     --color-letra-: #000;
     --mi-imagen: url('../storage/img/fondo.jpg');
