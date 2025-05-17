@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
-    background: var(--color-body-);
+    background-color: var(--color-body-);
     transition: background 0.5s ease;
 }
 html {
@@ -51,7 +51,7 @@ header ul li {
     align-items: center;
     justify-content: center;
     height: 35svh;
-    background-image: url('../storage/img/fondo.jpg');
+    background-image: var(--mi-imagen);
     background-size: cover;       
     background-position: center;   
     background-repeat: no-repeat;
@@ -116,6 +116,7 @@ aside {
 }
 a{
     text-decoration: none;
+    color: var(--letra-);
 }
 
 .articulos {
@@ -157,30 +158,67 @@ a{
 /* footer section */
 
 .footer_section {
-    border: 2px red solid;
+    /* border: 2px red solid; */
     width: 90%;
     margin: auto;
     height: 500px;
 }
 .div_comment{
-    border: 2px seagreen solid;
+    /* border: 2px seagreen solid; */
     height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .div_comment h2{
-    border: 2px blue solid;
+    /* border: 2px blue solid; */
+    font-size: 35px;
+    font-family:'Courier New', Courier, monospace;
+    color: var(--letra-);
 }
 .div_comment .textarea {
-    border: 2px rebeccapurple solid;
+    /* border: 2px rebeccapurple solid; */
+    padding: 5px;
 }
 .botones {
-    border: 2px yellow solid;
+    /* border: 2px yellow solid; */
+    width: 30%;
+    height: 10%;
+    color: var(--letra-);
+    border: 2px solid var(--color-borde-);
+}
+.botones:hover{
+    background: var(--color-fondo-);
+    color: var(--color-letra-);
 }
 .footer_section h3{
-    border: 2px slateblue solid;
-}
-.footer_section {
-    border: 2px skyblue solid;
+    margin-top: 50px;
+    border-bottom: 1px solid #ccc;
+    /* border: 2px slateblue solid; */
+    font-family:'Courier New', Courier, monospace;
+    color: var(--letra-);
+    
 }
 .ulsito {
-    border: 2px sienna solid;
+    /* border: 2px sienna solid; */
+    list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.comment-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding: 8px 0;
+  color: var(--letra-);
+}
+
+.avatar-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--letra-);
 }
