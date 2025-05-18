@@ -25,6 +25,11 @@ También se incluye un **menú lateral** que permite acceder rápidamente a cada
 5. También hay un botón en la parte superior que redirige directamente a los comentarios.
 6. Opción de cambiar entre **modo claro y oscuro** para mejorar la experiencia del usuario.
 
+## Video De Explicacion 
+
+- https://drive.google.com/drive/folders/1Wslr_Tcb69OYKVZeggiduUMx5FfitAt8?usp=drive_link
+- en el video se explica como funciona la pagina... que elementos contiene y con que funcionalidades cuenta
+
 ## 👥 Créditos del equipo
 
 - **Manuel Larrotta**  
@@ -40,8 +45,8 @@ También se incluye un **menú lateral** que permite acceder rápidamente a cada
   - Encargada de documentación y pruebas
     
 ## evidencias del proyecto realizado
-![imagen1](manejo%20de%20ramas.jpeg)
-![imagen2](srcrum%20de%20tareas.jpeg)
+![imagen1](./storage/img/manejo%20de%20ramas.jpeg)
+![imagen2](./storage/img/srcrum%20de%20tareas.jpeg)
 
 
 

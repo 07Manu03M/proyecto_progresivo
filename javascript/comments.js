@@ -71,3 +71,5 @@ async function loadComments() {
 }
 
 loadComments();
+
+// :D

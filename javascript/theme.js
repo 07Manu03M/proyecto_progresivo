@@ -49,3 +49,5 @@ lightchange.addEventListener("click",()=>{
     body.classList.toggle("dark-mode");
     localStorage.setItem("theme", "light");
 })
+
+// :D
