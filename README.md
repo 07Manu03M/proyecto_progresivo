@@ -40,8 +40,8 @@ También se incluye un **menú lateral** que permite acceder rápidamente a cada
   - Encargada de documentación y pruebas
     
 ## evidencias del proyecto realizado
-![Texto alternativo](manejo%20de%20ramas.jpeg)
-![Texto alternativo](srcrum%20de%20tareas.jpeg)
+![imagen1](manejo%20de%20ramas.jpeg)
+![imagen2](srcrum%20de%20tareas.jpeg)
 
 
 
